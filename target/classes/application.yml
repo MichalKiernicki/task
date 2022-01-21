@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3307/task
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+
+info:
+  app:
+    profile: ${spring.profiles.active}
+  serverInfo:
+    os: ${os.name}
+  user:
+    timeZone: ${user.timezone}
+    country: ${user.country}
+  metrics:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
