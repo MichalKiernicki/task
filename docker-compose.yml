@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  task_db:
+    image: mysql:8.0.27
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: task
+    ports:
+      - "3307:3306"
