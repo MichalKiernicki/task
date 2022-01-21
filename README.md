@@ -1,6 +1,6 @@
 ## task
 
-Zadanie rekruyacyjne
+#Zadanie rekrutacyjne
 
 *Treść zadania: 
 
