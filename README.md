@@ -1,5 +1,5 @@
 ## task
-#Zadanie rekruyacyjne
+Zadanie rekruyacyjne
 *Treść zadania: 
  Utworzyć dwie klasy: Student oraz Nauczyciel. Nauczyciel może mieć wiele studentów oraz student może mieć wiele nauczycieli.
  Nauczyciel powinien mieć pola: imię, nazwisko, wiek, email oraz przedmiot.
